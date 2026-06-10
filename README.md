@@ -44,29 +44,26 @@ See the current snapshot in [board.md](board.md).
 
 ---
 
-## How this maps to the Amazon Data Collection Specialist role
+## What this project demonstrates
 
-This board is built to demonstrate the exact responsibilities and qualifications in
-the job description. Each JD requirement maps to a ticket or workflow stage:
+The goal is to model a real, repeatable process as a clean Kanban workflow and use
+JIRA the way a team actually does. Concepts shown here:
 
-| Job description language | Where it shows up in this board |
+| JIRA / Kanban concept | How it's used in this board |
 | --- | --- |
-| *Execute the collection procedure accurately, record data* | **VCDC-3** Run scenario-driven data collection — scripted steps, timestamps, observations |
-| *Document any needed information associated to data* | **VCDC-6** Audit session notes; checkbox acceptance criteria on every ticket |
-| *Scenario-driven data collection* (preferred qual) | **VCDC-3**, modeled as a scripted scenario with per-step tracking |
-| *Experience working with prototype assets* / *device flashing and readiness* | **VCDC-1** Prepare prototype device; **VCDC-9** Stage backup device (build install, login, device ID) |
-| *Data auditing / data markup* | **VCDC-5** Validate collected data file; **VCDC-6** Audit completed session notes |
-| *Hardware and software testing* | **VCDC-4** Log device issue (Bug) — repro steps, impact, data usability |
-| *Proactive behavior in addressing issues and problems* | **Blocked / Issue Found** column + Bug workflow so problems are surfaced, not buried |
-| *Contribute to improvements... identifying issues in tools and suggesting enhancements* | **VCDC-7** Update collection protocol suggestion (Improvement type) |
-| *Understand changes to collection protocol in response to data needs and workflows* | Acceptance criteria reference the collection protocol; VCDC-7 proposes a protocol change |
-| *Providing peer-to-peer feedback* | VCDC-7 written as a constructive, reasoned improvement suggestion |
-| *Accuracy, efficiency, passion for data* | **QA Review** gate + **VCDC-8** Final QA review — nothing closes without validation |
-| *MS Office / Excel proficiency* | Tickets and statuses exported as a structured CSV (`jira-import.csv`) |
-| *Experience with JIRA / agile collaborative workflow* | The whole project: a JIRA Kanban board moving work through defined stages |
+| **Workflow as columns** | Work flows left → right through clearly defined stages, so anyone can see status at a glance. |
+| **Issue types** | The right type for the job — **Task** for standard work, **Bug** for a failure (VCDC-4), **Improvement** for a process suggestion (VCDC-7). |
+| **Acceptance criteria** | Every ticket has an explicit, checkable definition of done — no ambiguity about when work is complete. |
+| **Surfacing blockers** | A dedicated **Blocked / Issue Found** column makes impediments visible instead of letting them stall silently. |
+| **Quality gate** | Nothing reaches **Done** without passing through **QA Review** and a final validation step (VCDC-8). |
+| **Prioritization & labels** | Priorities and labels (`device`, `qa`, `data-validation`, …) keep the backlog organized and filterable. |
+| **Continuous improvement** | Lessons from a session feed back as Improvement tickets, closing the loop on the process itself. |
 
-The core competency on display: **track tasks, document issues, move work through
-stages, and support quality control** — accurately, proactively, and with a paper trail.
+The core competency on display: **track work, document issues, move it through
+defined stages, and gate quality before anything is called done.**
+
+*Context: the sample tickets follow a hardware/data-collection session (device prep,
+scenario-driven collection, validation, QA) to keep the example concrete and realistic.*
 
 ---
 

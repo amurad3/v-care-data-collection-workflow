@@ -39,18 +39,29 @@ See the current snapshot in [board.md](board.md).
 
 ---
 
-## How this maps to the Amazon role
+## How this maps to the Amazon Data Collection Specialist role
 
-This workflow mirrors the day-to-day of a data collection / data technician role:
+This board is built to demonstrate the exact responsibilities and qualifications in
+the job description. Each JD requirement maps to a ticket or workflow stage:
 
-- **Prototype device readiness** — charge, update, label, verify build and login.
-- **Scenario-driven data collection** — run scripted scenarios, record timestamps and observations.
-- **Issue logging** — capture device failures with repro steps and data-usability impact.
-- **Data validation & QA** — check fields, naming conventions, folder structure before closing.
-- **Process feedback** — suggest protocol improvements based on what happened in the session.
+| Job description language | Where it shows up in this board |
+| --- | --- |
+| *Execute the collection procedure accurately, record data* | **VCDC-3** Run scenario-driven data collection — scripted steps, timestamps, observations |
+| *Document any needed information associated to data* | **VCDC-6** Audit session notes; checkbox acceptance criteria on every ticket |
+| *Scenario-driven data collection* (preferred qual) | **VCDC-3**, modeled as a scripted scenario with per-step tracking |
+| *Experience working with prototype assets* / *device flashing and readiness* | **VCDC-1** Prepare prototype device; **VCDC-9** Stage backup device (build install, login, device ID) |
+| *Data auditing / data markup* | **VCDC-5** Validate collected data file; **VCDC-6** Audit completed session notes |
+| *Hardware and software testing* | **VCDC-4** Log device issue (Bug) — repro steps, impact, data usability |
+| *Proactive behavior in addressing issues and problems* | **Blocked / Issue Found** column + Bug workflow so problems are surfaced, not buried |
+| *Contribute to improvements... identifying issues in tools and suggesting enhancements* | **VCDC-7** Update collection protocol suggestion (Improvement type) |
+| *Understand changes to collection protocol in response to data needs and workflows* | Acceptance criteria reference the collection protocol; VCDC-7 proposes a protocol change |
+| *Providing peer-to-peer feedback* | VCDC-7 written as a constructive, reasoned improvement suggestion |
+| *Accuracy, efficiency, passion for data* | **QA Review** gate + **VCDC-8** Final QA review — nothing closes without validation |
+| *MS Office / Excel proficiency* | Tickets and statuses exported as a structured CSV (`jira-import.csv`) |
+| *Experience with JIRA / agile collaborative workflow* | The whole project: a JIRA Kanban board moving work through defined stages |
 
-The point is to show the core competency: **track tasks, document issues, move work
-through stages, and support quality control.**
+The core competency on display: **track tasks, document issues, move work through
+stages, and support quality control** — accurately, proactively, and with a paper trail.
 
 ---
 

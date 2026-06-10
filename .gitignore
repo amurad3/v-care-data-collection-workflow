@@ -1,0 +1,8 @@
+# Local tooling / Claude Code config — not part of the deliverable
+.mcp.json
+.claude/
+*.local.json
+
+# Secrets — never commit
+.env
+*.token

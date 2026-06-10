@@ -70,15 +70,8 @@ stages, and support quality control** — accurately, proactively, and with a pa
 
 ---
 
-## Create the real JIRA project from this repo
+## Recreate this board elsewhere
 
-1. In JIRA, create a project named **V-CARE Data Collection Workflow Practice** (Kanban template).
-2. Rename the board columns to match the six columns above.
-3. Go to **Filters → Import issues from CSV** (or Project settings → Import).
-4. Upload [`jira-import.csv`](jira-import.csv) and map the columns
-   (Summary, Issue Type, Description, Priority, Status, Labels).
-5. Confirm — the 10 tickets land in the correct columns via the **Status** field.
-
-> Note: column names in JIRA are mapped to statuses. If your JIRA uses default
-> statuses, map "Ready for Session", "Blocked / Issue Found", and "QA Review" to
-> the matching custom statuses (or the nearest default) during import.
+The live board already exists (link at the top). To rebuild it in a different JIRA
+instance, import [`jira-import.csv`](jira-import.csv) — see
+[IMPORT_TO_JIRA.md](IMPORT_TO_JIRA.md) for the step-by-step guide.

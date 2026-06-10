@@ -5,8 +5,9 @@ preparation to completion: device readiness, participant/session setup, scenario
 execution, data validation, issue logging, and final QA review.
 
 > **Live JIRA board:** this project is also built as a real Kanban board on JIRA
-> Cloud — project **V-CARE Data Collection Workflow Practice** (key `VCDCWP`) on
-> `athirmurad2.atlassian.net`, with all 10 tickets placed across the six columns.
+> Cloud — **[Open the V-CARE Kanban board ↗](https://athirmurad2.atlassian.net/jira/software/projects/VCDCWP/boards)**
+> (project key `VCDCWP`), with all 10 tickets placed across the six columns.
+> *(Sign-in required — the board is on the owner's personal Atlassian site.)*
 
 This repository is a file-based representation of the JIRA project so it can live
 on GitHub. It includes:

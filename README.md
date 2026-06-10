@@ -14,7 +14,7 @@ on GitHub. It includes:
 
 - A readable [Kanban board](board.md) showing where each ticket sits.
 - One file per ticket under [`tickets/`](tickets/) with description and acceptance criteria.
-- A [`jira-import.csv`](jira-import.csv) you can load directly into JIRA to create the real board.
+- A [`jira-import.csv`](jira-import.csv) to recreate the same board in any other JIRA instance.
 
 ---
 

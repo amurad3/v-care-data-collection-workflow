@@ -4,6 +4,10 @@ A lightweight JIRA Kanban project that tracks **data collection sessions** from
 preparation to completion: device readiness, participant/session setup, scenario
 execution, data validation, issue logging, and final QA review.
 
+> **Live JIRA board:** this project is also built as a real Kanban board on JIRA
+> Cloud — project **V-CARE Data Collection Workflow Practice** (key `VCDCWP`) on
+> `athirmurad2.atlassian.net`, with all 10 tickets placed across the six columns.
+
 This repository is a file-based representation of the JIRA project so it can live
 on GitHub. It includes:
 
